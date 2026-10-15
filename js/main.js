@@ -15,7 +15,8 @@
     pages: [
       { href: "index.html", label: "Home" },
       { href: "dae-200.html", label: "DAE 200" },
-      { href: "dae-405-observation.html", label: "DAE 405 Observation" }
+      { href: "dae-405-observation.html", label: "DAE 405 Observation" },
+      { href: "busytownprek.html", label: "Busytown-PreK" }
       // { href: "new-page.html", label: "New page" },
     ]
   };

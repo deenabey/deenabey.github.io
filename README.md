@@ -62,17 +62,6 @@ The Vimeo animation and the rubric Google Doc link are already wired up.
   the GoDaddy page, so I made them image galleries. If they were text, tell me and I'll
   switch them.
 
-## Publish on GitHub Pages
-
-1. Put everything in this folder at the **root** of your repo (so `index.html` is at the top level).
-2. Commit and push.
-3. In the repo on GitHub: **Settings → Pages → Build and deployment → Source: Deploy from a branch**,
-   choose your main branch and `/ (root)`, then Save.
-4. After a minute or two your site is at `https://<your-username>.github.io/<repo-name>/`.
-
-Large videos: GitHub has a 100 MB per-file limit. If an .mp4 is bigger, upload it to Vimeo
-and swap the `<video>` for an iframe like the one in `dae-200.html`.
-
 ## Adding a new page later
 
 1. Copy `template.html` and rename it.

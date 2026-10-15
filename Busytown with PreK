@@ -1,0 +1,54 @@
+<!doctype html>
+<!--
+  NEW PAGE TEMPLATE
+  1. Copy this file and rename it (e.g. my-new-project.html)
+  2. Replace the TITLE / DESCRIPTION / text below
+  3. Add one line for it in the `pages` list at the top of js/main.js
+  4. Add a link row for it in index.html under "Projects" (optional)
+  Delete this comment block in your copy.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Busytown with PreK | Art Ed | Deena Beydoun</title>
+  <meta name="description" content="DESCRIPTION">
+  <meta name="theme-color" content="#f5e6f2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <section class="page-head">
+      <p class="course">Community Building</p>
+      <h1>Page title</h1>
+      <p class="subtitle">One-line subtitle</p>
+    </section>
+
+    <!-- Text section -->
+    <section class="section" aria-labelledby="first-heading">
+      <h2 id="first-heading">Section heading</h2>
+      <div class="prose">
+        <p>Your writing goes here.</p>
+      </div>
+    </section>
+
+    <!-- Image gallery section (click an image to enlarge) -->
+    <section class="section" aria-labelledby="gallery-heading">
+      <h2 id="gallery-heading">Gallery</h2>
+      <ul class="gallery">
+        <li><img class="zoomable" src="assets/images/NEW-FOLDER/photo-01.jpg" alt="Describe the image" loading="lazy" decoding="async"></li>
+        <li><img class="zoomable" src="assets/images/NEW-FOLDER/photo-02.jpg" alt="Describe the image" loading="lazy" decoding="async"></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

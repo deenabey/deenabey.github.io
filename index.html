@@ -1,12 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Art Ed | Deena Beydoun</title>
+  <meta name="description" content="Art education work by Deena Beydoun, Art & Design B.F.A., University of Michigan Stamps School of Art and Design.">
+  <meta name="theme-color" content="#f5e6f2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>Welcome to my website hosted on GitHub Pages.</p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Art Ed</h1>
+        <p class="byline">Deena Beydoun</p>
+        <p>Art &amp; Design B.F.A., University of Michigan Stamps School of Art and Design. Work from my art education courses.</p>
+      </div>
+
+      <figure class="wheel-wrap">
+        <div class="wheel" aria-hidden="true">
+          <svg viewBox="0 0 100 100" focusable="false">
+            <line x1="50" y1="12" x2="50" y2="88"/>
+            <line x1="76.87" y1="23.13" x2="23.13" y2="76.87"/>
+            <line x1="88" y1="50" x2="12" y2="50"/>
+            <line x1="76.87" y1="76.87" x2="23.13" y2="23.13"/>
+          </svg>
+          <!-- --a: position on the ring, --c: color, --s: how much of the moon is lit, --i: fill-in order -->
+          <span class="moon" style="--a:0deg;   --c:#4561c9; --s:0%;    --i:0"></span>
+          <span class="moon" style="--a:45deg;  --c:#8a5cc2; --s:-25%;  --i:1"></span>
+          <span class="moon" style="--a:90deg;  --c:#d2475f; --s:-50%;  --i:2"></span>
+          <span class="moon" style="--a:135deg; --c:#e2703f; --s:-75%;  --i:3"></span>
+          <span class="moon" style="--a:180deg; --c:#f0a03a; --s:-100%; --i:4"></span>
+          <span class="moon" style="--a:225deg; --c:#f1d25a; --s:75%;   --i:5"></span>
+          <span class="moon" style="--a:270deg; --c:#6fb26a; --s:50%;   --i:6"></span>
+          <span class="moon" style="--a:315deg; --c:#3fa3a0; --s:25%;   --i:7"></span>
+          <span class="eclipse"></span>
+        </div>
+        <figcaption class="wheel-caption">
+          <a href="dae-200.html">The lunar color wheel, from my educational lineage project</a>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+
+      <a class="project" href="dae-200.html">
+        <span class="project-code">DAE 200</span>
+        <div>
+          <h3>Educational Lineage Project</h3>
+          <p>My educational lineage as a lunar color wheel, from sketch to animation.</p>
+        </div>
+      </a>
+
+      <a class="project" href="dae-405-observation.html">
+        <span class="project-code">DAE 405</span>
+        <div>
+          <h3>Student Observation</h3>
+          <p>Student art projects, classroom observations, and creative designs from Starkweather Academy.</p>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
